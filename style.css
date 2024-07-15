@@ -100,11 +100,12 @@ body {
   background-repeat: no-repeat;
 
   font-family: var(--ff-primary);
+
+  padding: 0 1.5rem;
 }
 
 .card {
   background-color: var(--clr-neutral-600);
-  min-width: 327px;
 
   padding: 1.5rem;
 
