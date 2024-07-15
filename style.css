@@ -86,14 +86,111 @@ h6 {
   isolation: isolate;
 }
 
-/**************/
-/* CSS RESET */
-/************/
+/*******************/
+/* GENERAL STYLES */
+/*****************/
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--clr-neutral-800);
+  background-repeat: no-repeat;
+
+  font-family: var(--ff-primary);
+}
+
+.card {
+  background-color: var(--clr-neutral-600);
+  min-width: 327px;
+
+  padding: 1.5rem;
+
+  border-radius: 0.625rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  > header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+
+    > picture .author-img {
+      max-width: 6rem;
+      border-radius: 100%;
+    }
+
+    > .author-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      > h1 {
+        font-size: 1.5rem;
+        color: var(--clr-neutral-100);
+        font-weight: var(--fw-semi-bold);
+      }
+
+      > span {
+        font-size: var(--fs-small);
+        color: var(--clr-primary);
+        font-weight: var(--fw-bold);
+      }
+    }
+
+    > p {
+      font-size: var(--fs-small);
+      color: var(--clr-neutral-100);
+    }
+  }
+  > .socials-section {
+    > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      padding: 0;
+      list-style: none;
+
+      li {
+        min-width: 100%;
+        text-align: center;
+
+        background-color: var(--clr-neutral-500);
+        padding: 0.75rem 0;
+        border-radius: 0.5rem;
+      }
+
+      li:hover {
+        background-color: var(--clr-primary);
+        cursor: pointer;
+        a {
+          color: var(--clr-neutral-800);
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--clr-neutral-100);
+        font-weight: var(--fw-semi-bold);
+      }
+    }
+  }
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--clr-neutral-100);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--clr-primary);
+  text-decoration: none;
 }
