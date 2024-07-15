@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jewebdev.github.io/social-links-profile/)
+- Live Site URL: [Live Demo:](https://jewebdev.github.io/social-links-profile/)
 
 ## My process
 
@@ -53,8 +53,6 @@ I will continue to improve my HTML and css code.
 ## Author
 
 - Frontend Mentor - [@JEWebDev](https://www.frontendmentor.io/profile/JEWebDev)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
